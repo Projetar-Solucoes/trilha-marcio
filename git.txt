@@ -1,0 +1,79 @@
+GIT E GITHUB - RESUMO
+
+Git é um sistema de controle de versões usado para acompanhar as alterações de um projeto. GitHub é uma plataforma online onde podemos armazenar e compartilhar repositórios Git.
+
+Um repositório é o projeto que está sendo controlado pelo Git. Ele pode existir localmente no computador ou remotamente no GitHub.
+
+Para transformar uma pasta em um repositório Git, usamos:
+
+git init
+
+O comando git status mostra o estado atual do projeto, como arquivos modificados, novos arquivos e alterações que ainda não foram adicionadas.
+
+O git add . adiciona todas as alterações à Staging Area, que é uma área onde selecionamos o que será incluído no próximo commit.
+
+O commit registra as alterações no histórico do projeto. Usamos:
+
+git commit -m "mensagem"
+
+A mensagem deve explicar o que foi alterado.
+
+Uma branch é uma linha de desenvolvimento independente. A main normalmente é a branch principal do projeto. Podemos ver as branches com:
+
+git branch
+
+Para mudar de branch:
+
+git switch nome-da-branch
+
+Para criar uma branch e já entrar nela:
+
+git switch -c nome-da-branch
+
+Um remote é uma conexão com um repositório externo, geralmente no GitHub. Origin é o nome padrão usado para identificar esse repositório remoto.
+
+Para conectar o projeto local ao GitHub:
+
+git remote add origin URL
+
+Push significa enviar os commits do computador para o GitHub:
+
+git push
+
+Na primeira vez que enviamos uma branch, podemos usar:
+
+git push -u origin main
+
+O -u cria uma ligação entre a branch local e a branch remota. Depois disso, podemos usar apenas git push.
+
+Pull faz o contrário: busca as alterações do GitHub e atualiza o projeto local:
+
+git pull
+
+Clone é usado para copiar um repositório que está no GitHub para o computador:
+
+git clone URL
+
+Merge significa juntar duas branches. Por exemplo, podemos juntar uma branch de desenvolvimento com a main.
+
+Pull Request é um pedido feito no GitHub para que as alterações de uma branch sejam revisadas e depois adicionadas a outra branch. É muito utilizado em trabalhos em equipe.
+
+Um conflito acontece quando o Git encontra alterações diferentes na mesma parte de um arquivo e não consegue decidir automaticamente qual deve permanecer. Nesse caso, precisamos resolver o conflito manualmente.
+
+O .gitignore é um arquivo usado para informar ao Git quais arquivos ou pastas não devem ser enviados para o repositório, como arquivos temporários, senhas e configurações privadas.
+
+O README.md é um arquivo usado para explicar o projeto, contendo informações como descrição, instalação, funcionamento e tecnologias utilizadas.
+
+FLUXO BÁSICO:
+
+git init
+↓
+git add .
+↓
+git commit -m "mensagem"
+↓
+git push
+
+FLUXO EM EQUIPE:
+
+Criar branch → Fazer alterações → Commit → Push → Pull Request → Revisão → Merge → Main

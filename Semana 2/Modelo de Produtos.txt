@@ -1,0 +1,30 @@
+Policias - Usuários
+O que ele pode fazer?
+duplo diamante: fase de exploração até chegar no desenvolvimento
+
+Para criar um projeto precisamos começar pelas definições, protótipo
+e desenvolvimento
+
+Definições:
+requisitos
+pessoas envolvidas
+objetivo (critérios de aceitação)
+orçamento ( quanto vai custar a aplicação)
+
+Prototipo: 
+Mockup
+Testavel*
+
+Desenvolvimento: 
+Ciclo de Feedback (Fica enviando pro cliente e mandando até ficar aceitável) 
+
+*tem que ser fácil de usar
+* letramento digital
+
+Nome:
+Data:
+Local:
+Descrição:
+Policiais_envolvido:
+
+o sistema é pro pessoal que trabalha no CGI

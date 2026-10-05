@@ -1,0 +1,6 @@
+0- Começamos resumindo sobre lógica de programação, algoritmo e tipos de dados ( Variáveis e constantes) e tipos primitivos
+1- Falou sobre ser um programador e a história do Python
+2- Alguns criaram suas contas gits e começamos a estudar sobre
+3- vimos sobre tipos aritmeticos
+4-
+5-
