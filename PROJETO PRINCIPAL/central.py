@@ -56,7 +56,7 @@ def cadastrar_solicitacao():
 
         setores_possiveis = ["Armazem","Finanças", "Programação", "Admnistração", "RH"]
         setor = ""
-
+        
         print("(1) Armazem\n(2) Finanças\n(3) Programação\n(4) Administração\n(5) RH")
         while setor not in setores_possiveis:
             try:
