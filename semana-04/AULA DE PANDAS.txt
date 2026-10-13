@@ -1,0 +1,20 @@
+import pandas as pd - importar a biblioteca pandas
+pandas: biblioteca para mexer com dados brutos
+pd.DataFrame(dict): cria uma tabela do dicionário
+
+print: mostra em formato de linha a tabela
+display: mostra em formato de tabela mesmo
+
+dict é um exemplo de dataframe
+display(dict.head(n)): mostra da coluna 0 até a n coluna de informações na tabela
+dict.shape: diz quantas linhas e colunas tem
+dict.describe(): resumo de tudo
+
+editar:
+puxar só uma coluna- cria uma variável que receberá essa coluna, dict["nomedacoluna"]
+
+dict["prioridade"] seleciona a coluna prioridade.
+
+.isna() identifica os valores vazios.
+
+.sum() conta quantos valores vazios existem.
